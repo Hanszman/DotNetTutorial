@@ -80,7 +80,7 @@ namespace DotNetTutorial.Controllers
 
         [HttpDelete("{id}")]
         public IActionResult DeleteVideoGame(int id)
-        {
+        { 
             var game = videoGames.FirstOrDefault(g => g.Id == id);
             if (game is null)
                 return NotFound();
