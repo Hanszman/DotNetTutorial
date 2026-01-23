@@ -30,3 +30,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+// API Runs at: https://localhost:7136/scalar/v1
